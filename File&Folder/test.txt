@@ -1,0 +1,2 @@
+This is a file.
+To read line,we need to create a file somewhere.
