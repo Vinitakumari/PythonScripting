@@ -1,0 +1,9 @@
+2025-05-09 10:15:21,342 [user-service] INFO User login request received for user_id=1234
+2025-05-09 10:15:22,001 [auth-service] DEBUG Token generated for user_id=1234, expires_in=3600
+2025-05-09 10:15:22,345 [user-service] ERROR Failed to fetch user profile from database: timeout after 5000ms
+2025-05-09 10:15:23,120 [payment-service] INFO Payment request initiated for order_id=9988
+2025-05-09 10:15:23,534 [payment-service] ERROR Payment processing failed: insufficient funds (user_id=1234)
+2025-05-09 10:15:24,132 [email-service] DEBUG Sending email to user_id=1234 for order confirmation
+2025-05-09 10:15:25,789 [inventory-service] INFO Stock check initiated for item_id=AB123
+2025-05-09 10:15:26,999 [inventory-service] ERROR Inventory sync failed with warehouse API: HTTP 500 Internal Server Error
+2025-05-09 10:15:27,456 [user-service] INFO User logout request processed for user_id=1234
